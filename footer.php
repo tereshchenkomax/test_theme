@@ -8,21 +8,7 @@
                 <div class="profile">
                     <img class="img-responsive" src="images/profile.png" alt="" />
                 </div><!--//profile-->
-                <div class="speech-bubble">
-                    <h3 class="sub-title">Want to get more freebies in the future?</h3>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae dolor ea eaque harum
-                        incidunt, laborum magni maxime minima modi nihil omnis provident quia quo ratione repellendus
-                        rerum sunt ut!</p>
-                    <p>Dolores error facere nemo, nesciunt porro quam? Asperiores, beatae blanditiis consequuntur
-                        debitis et exercitationem in incidunt molestiae molestias nemo obcaecati sapiente sequi, soluta
-                        sunt tempora velit voluptatibus? Accusamus atque, perferendis.</p>
-
-                    <div class="source">
-                        <span class="name"><a href="https://twitter.com/3rdwave_themes" target="_blank">Xiaoying Riley</a></span>
-                        <br />
-                        <span class="title">UX/UI Designer</span>
-                    </div><!--//source-->
                 </div><!--//speech-bubble-->
             </div><!--//author-message-->
             <div class="clearfix"></div>
@@ -44,7 +30,7 @@
 <!-- ******FOOTER****** -->
 <footer class="footer">
     <div class="container text-center">
-        <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://vk.com/tereshchenkomax" target="_blank">Tereshchenkomax</a></small>
     </div><!--//container-->
 </footer><!--//footer-->
 

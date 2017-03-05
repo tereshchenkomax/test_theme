@@ -28,37 +28,44 @@
 </head>
 <body class="home" itemscope itemtype="http://schema.org/WebPage">
 
+
 <div id="masthead">
 
-    <!-- ******HEADER****** -->
-    <header id="header" class="header">
+    <div id="site-header" role="banner">
         <div class="container">
-            <h1 class="logo pull-left">
-                <a class="scrollto" href="#promo">
-                    <span class="logo-title">devAid</span>
-                </a>
-            </h1><!--//logo-->
-            <nav id="main-nav" class="main-nav navbar-right" role="navigation">
-                <div class="navbar-header">
-                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button><!--//nav-toggle-->
-                </div><!--//navbar-header-->
-                <div class="navbar-collapse collapse" id="navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#about">About</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#features">Features</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#docs">Docs</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#license">License</a></li>
-                        <li class="nav-item last"><a class="scrollto" href="#contact">Contact</a></li>
-                    </ul><!--//nav-->
-                </div><!--//navabr-collapse-->
-            </nav><!--//main-nav-->
-        </div>
-    </header><!--//header-->
+            <div class="row">
+
+                <div id="branding">
+                    <a class="logo" href="index.html">Header</a>
+                </div> <!-- #branding -->
+
+                <nav id="main-menu" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+                    <ul class="horizontal-navigation">
+                        <li class="menu-home active" itemprop="url"><a href="index.html" title="Home" itemprop="name">Home</a></li>
+                        <li class="menu-about" itemprop="url"><a href="about.html" title="About" itemprop="name">About</a></li>
+                        <li class="menu-portfolio" itemprop="url"><a href="portfolio.html" title="Portfolio" itemprop="name">Portfolio</a></li>
+                        <li class="menu-blog" itemprop="url"><a href="blog.html" title="Blog" itemprop="name">Blog</a></li>
+                        <li class="menu-contact" itemprop="url"><a href="contact.html" title="Contact" itemprop="name">Contact</a></li>
+                    </ul>
+                </nav> <!-- #main-menu -->
+
+            </div> <!-- .row -->
+        </div> <!-- .container -->
+    </div> <!-- #site-header -->
+
 
 </div> <!-- #masthead -->
+
+
+<section id="promo" class="promo section offset-header">
+    <div class="container text-center">
+        <h2 class="title">Test <span class="highlight">Theme</span></h2>
+        <p class="intro">Hello. This is a first try to adopt theme on wordpress</p>
+        <div class="btns">
+            <a class="btn btn-cta-secondary" href="https://github.com/tereshchenkomax/test_theme" target="_blank">Github</a>
+
+        </div>
+
+    </div><!--//container-->
+
+</section><!--//promo-->
